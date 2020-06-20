@@ -28,7 +28,8 @@ img {
 
 .jumbotron-format {
   text-align: center;
-  background-color: #17682a
+  background-color: #17682a;
+  margin-top: 80px;
 }
 
 #top {
@@ -73,6 +74,11 @@ img {
   background-color:#17682a;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
 #testimonials {
   text-align: center;
 }
