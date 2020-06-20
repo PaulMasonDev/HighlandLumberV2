@@ -21,6 +21,7 @@ img {
 .logo-main {
   margin: 1.5rem auto;
   border-radius: 2.5%;
+  width: 75%;
 }
 .container-fluid {
   padding: 3% 10%;  
