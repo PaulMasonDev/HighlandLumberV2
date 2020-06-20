@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+p {
+  margin-top: 1rem;
+}
+
+img {
+  box-shadow: 5px 5px 10px #435246;
+}
+.navbar-custom {
+  background-color: #b2ddbc;
+}
+.logo {
+  height: 25%;
+  width: 25%;
+  border-radius: 10%;
+}
+
+.logo-main {
+  margin: 1.5rem auto;
+  border-radius: 2.5%;
+}
+.container-fluid {
+  padding: 3% 10%;  
+}
+
+.jumbotron-format {
+  text-align: center;
+  background-color: #17682a
+}
+
+#top {
+  background-color: #004710;
+}
+
+#bottom {
+  background-color: #b2ddbc;
+  
+}
+.centered {
+  text-align: center;
+}
+#about {
+  color: grey;
+  text-align: center;
+  background-color: #b2ddbc;
+}
+.about-img {
+  width: 213.46875px;
+  height: 110.671875px;
+  border-radius: 2.5%;
+}
+
+.owner-img {
+  width: 230.25px;
+  height: 153.75px;
+  border-radius: 2.5%;
+  
+}
+
+.read-more-button {
+  margin-bottom: 1rem;
+}
+
+.mailto-button {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#footer, #testimonials {
+  color: lightgray;
+  background-color:#17682a;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.testimonial-carousel {
+  margin: 0 auto;
+}
+.testimonial-image {
+  box-shadow:none;
+  margin: 20px;
+}
+
+#test {
+  padding-top: 20px;
+}
+
+.carousel-inner {
+  
+  vertical-align: middle;
+}
+.carousel-item {
+    padding: 7% 15%;
+  }
+
+@media screen and (min-width:992px) {
+  .about-img {
+    width: 284.625px;
+    height: 147.5625px;
+  }
+  .owner-img {
+    width: 307px;
+    height: 205px;
+    
+  }
+}
