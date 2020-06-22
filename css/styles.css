@@ -12,6 +12,10 @@ img {
 .navbar-custom {
   background-color: #b2ddbc;
 }
+
+.navbar-brand {
+  width: 250px;
+}
 .logo {
   height: 25%;
   width: 25%;
@@ -56,6 +60,9 @@ img {
   border-radius: 2.5%;
 }
 
+.about-panel {
+  text-align: left;
+}
 .owner-img {
   width: 230.25px;
   height: 153.75px;
