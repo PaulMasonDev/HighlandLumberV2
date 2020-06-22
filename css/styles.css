@@ -29,7 +29,8 @@ img {
   height: 110.671875px;
 }
 .container-fluid {
-  padding: 3% 10%;  
+  padding: 3% 10%;
+  text-align: left; 
 }
 
 .jumbotron-format {
@@ -44,6 +45,7 @@ img {
 
 #bottom {
   background-color: #b2ddbc;
+  color: grey;
   
 }
 .centered {
@@ -121,5 +123,18 @@ img {
     width: 307px;
     height: 205px;
     
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonial-text {
+    font-size: 1.25rem;
+  }
+  .carousel-item {
+    padding: 0;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    visibility: hidden;
   }
 }
